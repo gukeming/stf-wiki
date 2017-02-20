@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "stf-wiki@^1.0.0",
+        "scope": null,
+        "escapedName": "stf-wiki",
+        "name": "stf-wiki",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "/home/hvsousa/Desktop/private/stf"
+    ]
+  ],
+  "_from": "stf-wiki@>=1.0.0 <2.0.0",
+  "_id": "stf-wiki@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/stf-wiki",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "sorccu",
+    "email": "simo@shoqolate.com"
+  },
+  "_npmVersion": "2.7.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "stf-wiki@^1.0.0",
+    "scope": null,
+    "escapedName": "stf-wiki",
+    "name": "stf-wiki",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/stf-wiki/-/stf-wiki-1.0.0.tgz",
+  "_shasum": "ac8382de415d0c99a5a2b5fa0c404b174a8ed59b",
+  "_shrinkwrap": null,
+  "_spec": "stf-wiki@^1.0.0",
+  "_where": "/home/hvsousa/Desktop/private/stf",
+  "author": {
+    "name": "CyberAgent, Inc.",
+    "email": "npm@cyberagent.co.jp",
+    "url": "http://www.cyberagent.co.jp/"
+  },
+  "bugs": {
+    "url": "https://github.com/openstf/stf/issues"
+  },
+  "dependencies": {},
+  "description": "Help docs for STF in Markdown format.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "ac8382de415d0c99a5a2b5fa0c404b174a8ed59b",
+    "tarball": "https://registry.npmjs.org/stf-wiki/-/stf-wiki-1.0.0.tgz"
+  },
+  "gitHead": "3fe1e59ea1eee75a0a4acb732743d4b27993167b",
+  "homepage": "https://github.com/openstf/stf.wiki",
+  "keywords": [
+    "stf"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "sorccu",
+      "email": "simo@shoqolate.com"
+    }
+  ],
+  "name": "stf-wiki",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openstf/stf.wiki.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}
