@@ -9,8 +9,7 @@
         "rawSpec": "^1.0.0",
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
-      },
-      "/home/hvsousa/Desktop/private/stf"
+      }
     ]
   ],
   "_from": "stf-wiki@>=1.0.0 <2.0.0",
@@ -42,7 +41,6 @@
   "_shasum": "ac8382de415d0c99a5a2b5fa0c404b174a8ed59b",
   "_shrinkwrap": null,
   "_spec": "stf-wiki@^1.0.0",
-  "_where": "/home/hvsousa/Desktop/private/stf",
   "author": {
     "name": "CyberAgent, Inc.",
     "email": "npm@cyberagent.co.jp",
