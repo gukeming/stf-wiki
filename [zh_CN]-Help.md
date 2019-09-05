@@ -1,18 +1,18 @@
 # 帮助
 
-- Usage
-	- Getting Started
-	- [Remote Debugging](/#!/docs/remote-debug)
+- 使用
+	- 快速开始
+	- [远程调试](/#!/remote-debug)
 
-	- Remote Shell
+	- 远程shell
 	- Browser Navigation
-	- App Uploading
-	- Automation
+	- APP 上传
+	- 自动化测试
 		- Appium
 		- Others
 		
 	
-- Documentation
+- 文档
 
-- License
-- Contributing
+- 版权
+- 贡献
