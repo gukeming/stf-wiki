@@ -2,7 +2,20 @@
 # 快速开始
 
 ### 账号申请
- 账号联系人： 古科明、刘媛媛
+ 账号添加联系人： 古科明、刘媛媛
+ 打开RethinkDB，在Data Explorer执行
+ ```
+ r.db('stf').table('users').insert(
+  [
+    {
+      "group": "FOPnIQ0mRJuwda/mi02kUg==" ,
+      "email": "gukeming@ds.cn",
+      "name": "古科明",
+      "password": "123456",
+    }
+  ]
+)
+```
  
 ### 新增stf机器
   1. 把手机usb连接上stf
