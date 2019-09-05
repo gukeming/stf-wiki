@@ -2,7 +2,9 @@
 # 快速开始
 
 ### 账号申请
+
  账号添加联系人： 古科明、刘媛媛
+ 
  打开RethinkDB，在Data Explorer执行
  ```
  r.db('stf').table('users').insert(
