@@ -2,7 +2,7 @@
 
 - 使用
 	- 快速开始
-	- [远程调试](/#!/remote-debug)
+	- [远程调试](/[zh_CN]-remote-debug)
 
 	- 远程shell
 	- Browser Navigation
