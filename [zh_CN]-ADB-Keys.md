@@ -1,45 +1,46 @@
 
 # ADB Keys
 
-By providing to MoTeL your **Public ADB Key**, you will be able to use the any device at any time from `adb connect`, even without needing to open MoTeL at all.
+通过向MoTeL提供您的公共**Public ADB Key***，您可以随时使用任何设备`adb connect`，甚至无需打开MoTeL。
+
+这对于自动化任务非常有用（例如在多个Android设备上运行功能测试）。
 
 This is very useful for **automation tasks** (like running *functional tests over multiple Android devices*).
 
-## Before starting
+## 在开始之前
 
-To be able to use the device locally you need to have installed the [Android SDK Tools](https://developer.android.com/sdk/index.html).
+为了能够在本地使用该设备，您需要安装[Android SDK Tools](https://developer.android.com/sdk/index.html)。
 
-
-## Step 1: Check your ADB Key
+## 第1步: 检查您的ADB密钥
 
 ```shell
 ls ~/.android/adbkey.pub
 ```
 
-It should list your **Public ADB Key**.
+应列出您的 **Public ADB Key**.
 
-**Note:** If you have never runned `adb` on your computer, you may not have a `.android` directory. It will be created when you run any ADB command like `adb devices`.
+**注意:** 如果您从未 `adb` 在计算机上运行过, 则可能没有 `.android` 目录。它将在您运行任何ADB命令时创建 `adb devices`.
 
-## Step 2: Copy your ADB Key to the clipboard
+## 第2步：将ADB密钥复制到剪贴板
 
-Run this command to copy the key to your clipboard:
+运行此命令将密钥复制到剪贴板：
 
 ```shell
 pbcopy < ~/.android/adbkey.pub
 ```
 
-It should copy the contents of the `adbkey.pub` file to your clipboard.
+它应该将文件的内容复制 `adbkey.pub` 到剪贴板。
 
-**Note:** You can also use your text editor, by opening the `~/.android/adbkey.pub` file and copying the contents of the file.
+**注意:** 您也可以使用文本编辑器打开 `~/.android/adbkey.pub` 文件并复制文件内容。
 
 
-## Step 3: Add your ADB Key to MoTeL
+## 第3步：将您的ADB密钥添加到MoTeL
 
-Now that the key is in the clipboard, add it into MoTeL:
+现在密钥在剪贴板中，将其添加到MoTeL中：
 
-1. Go to **Settings**.
-2. Click the **Keys** tab.
-3. In **ADB Keys**, Press the `+ (Add)` button.
-4. In **Key**, paste the key and press **Enter**.
+1. 转到 **Settings**.
+2. 单击 **Keys** 选项卡。
+3. 在 **ADB Keys**中, 按 `+ (Add)` 按钮.
+4. 在 **Key** 中, 粘贴密钥并按 **Enter**.
 
-Now you should be able to use any device more freely in MoTeL.
+现在，您应该能够在MoTeL中更自由地使用任何设备。
